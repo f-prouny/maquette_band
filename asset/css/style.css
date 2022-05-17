@@ -13,12 +13,16 @@ header nav a,header form{
     display: none;
     color: #fff;
     text-decoration: none;
+    
+    
 
 }
 header nav a:first-child{
     display: block;
 
 }
+#slider p:first-child{}
+
 header nav{
     display: flex;
     justify-content: space-between;
@@ -28,7 +32,14 @@ header nav{
 
 
 }
-ul{
+header nav a,#burger:hover{
+    padding: .7rem;
+
+}
+header nav a:hover{
+    background-color: rgb(135, 135, 135);
+}
+header ul{
     list-style-type: none;
 }
 #slider{
@@ -37,6 +48,93 @@ ul{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    color: #fff;
 }
+/*theBAND*/
+#theband h1{
+text-align:center;
+padding-top:3rem;
+padding-bottom: 3rem;
 
 
+
+}
+#diaporama{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+#theband h3{
+    text-align: center;
+    color: grey;
+    font-style: italic;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+figure{
+   
+}
+figcaption{
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+/*SECTION TOUR DATE*/
+#tourDates {
+background-color:black;
+color: #fff;
+
+
+
+}
+#tourDates h2{
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+}
+#tourDates h3{
+    text-align: center;
+    font-style: italic;
+    color: grey;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+#tourDates p{
+    font-style: italic;
+    color: grey;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+
+}
+.trois{
+    padding-left :.5rem;
+    padding-right: .5rem;
+    border-radius: 45%;
+    background-color:black ;
+    color: #fff;
+    text-align: center;
+    float: right;
+
+    
+}
+.soldOut{
+    margin-left: .5rem;
+    padding-right: .5rem;
+    background-color: red;
+    color: #fff;
+    text-align: center;
+    
+}
+#planning p{
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+}
+#planning{
+    background-color: #fff;
+    margin: 1rem;
+    padding: 1rem;
+}

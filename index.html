@@ -6,7 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Band</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./asset/css/style.css">
 </head>
 
@@ -14,6 +16,7 @@
     <header>
         <!--NAVbar-->
         <nav>
+            <img src="*" alt="">
             <ul>
                 <a href="home">
                     <li>HOME</li>
@@ -34,8 +37,9 @@
 
             <form action="" method="post">
                 <input type="text" name="search">
-                <button type="submit">NEXT</button>
+                <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
             </form>
+            <div id="burger"></div>
             <div><i class="fa-solid fa-bars"></i></div>
         </nav>
         <div id="slider">
@@ -43,6 +47,48 @@
             <p>we had the best time playing at Venice Beach! </p>
         </div>
     </header>
+    <main>
+        <section id="theband">
+            <h1>THE BAND</h1>
+            <h3>we love music</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat ipsa eligendi nobis placeat fugiat,
+                eaque
+                inventore libero sed. Odio, reprehenderit! Unde, quibusdam iure ducimus tempora pariatur ex eveniet
+                tempore
+                minus.</p>
+        </section>
+        <section id="name">
+            <div id="diaporama">
+                <figure>
+                    <figcaption>Name</figcaption>
+                    <img src="./asset/img/bandmember.jpg" alt="">
+                </figure>
+                <figure>
+                    <figcaption>Name</figcaption>
+                    <img src="./asset/img/bandmember.jpg" alt="">
+                </figure>
+                <figure>
+                    <figcaption>Name</figcaption>
+                    <img src="./asset/img/bandmember.jpg" alt="">
+                </figure>
+
+            </div>
+        </section>
+        <section id="tourDates">
+            <h2>TOUR DATES</h2>
+            <h3>Remember to book your tikets!</h3>
+
+            <div id="planning">
+                <p>September<span class="soldOut">Sold out</span></p>
+                <p>October<span class="soldOut">Sold Out</span></p>
+                <p>November<span class="trois">3</span></p>
+            </div>
+
+        </section>
+    </main>
+    <footer>
+
+    </footer>
 </body>
 
 </html>
