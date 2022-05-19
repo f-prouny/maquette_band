@@ -2,28 +2,38 @@
     font-family: "lato";
     src: url("../asset/font/Lato-Regular.ttf");
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
-    font-family: "lato",sans-serif;
+    font-family: "lato", sans-serif;
 
 }
+
+h2 {
+    font-weight: 100;
+    font-size: 2rem;
+    letter-spacing: .8rem;
+}
+
 /*HEADER*/
-header nav a,header form{
+
+header nav a,
+header form {
     display: none;
     color: #fff;
     text-decoration: none;
-    
-    
 
 }
-header nav a:first-child{
+
+header nav a:first-child {
     display: block;
 
 }
-#slider p:first-child{}
 
-header nav{
+#slider p:first-child {}
+
+header nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -32,17 +42,25 @@ header nav{
 
 
 }
-header nav a,#burger:hover{
-    padding: .7rem;
 
+header nav a,
+#burger {
+    padding: 1rem;
 }
-header nav a:hover{
+
+
+
+header nav a:hover {
     background-color: rgb(135, 135, 135);
 }
-header ul{
+
+header ul {
     list-style-type: none;
 }
-#slider{
+
+ul {}
+
+#slider {
     height: 25vh;
     background-image: url("../img/la.jpg");
     background-position: center;
@@ -54,87 +72,281 @@ header ul{
     justify-content: flex-end;
     color: #fff;
 }
-/*theBAND*/
-#theband h1{
-text-align:center;
-padding-top:3rem;
-padding-bottom: 3rem;
+
+#slider p {
+    display: none;
+}
+    /*theBAND*/
+    #theband h1 {
+        text-align: center;
+        padding-top: 3rem;
+        padding-bottom: 1rem;
 
 
 
-}
-#diaporama{
-display: flex;
-flex-direction: column;
-align-items: center;
-}
-#theband h3{
-    text-align: center;
-    color: grey;
-    font-style: italic;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-}
-figure{
-   
-}
-figcaption{
-    text-align: center;
-    margin-top: 5rem;
-    margin-bottom: 2rem;
-}
-/*SECTION TOUR DATE*/
-#tourDates {
-background-color:black;
-color: #fff;
+    }
+
+    #diaporama {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #theband h3 {
+        text-align: center;
+        color: grey;
+        font-style: italic;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    figure {}
+
+    figcaption {
+        text-align: center;
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+    }
+
+    /*SECTION TOUR DATE*/
+    #tourDates {
+        background-color: black;
+        color: #fff;
 
 
 
-}
-#tourDates h2{
-    text-align: center;
-    padding-top: 5rem;
-    padding-bottom: 2rem;
-}
-#tourDates h3{
-    text-align: center;
-    font-style: italic;
-    color: grey;
-    padding-top: 1rem;
-    padding-bottom: 2rem;
-}
-#tourDates p{
-    font-style: italic;
-    color: grey;
-    padding-top: 2rem;
-    padding-bottom: 3rem;
+    }
 
-}
-.trois{
-    padding-left :.5rem;
-    padding-right: .5rem;
-    border-radius: 45%;
-    background-color:black ;
-    color: #fff;
-    text-align: center;
-    float: right;
+    #tourDates h2 {
+        text-align: center;
+        padding-top: 5rem;
+        padding-bottom: 2rem;
+    }
 
-    
-}
-.soldOut{
-    margin-left: .5rem;
-    padding-right: .5rem;
-    background-color: red;
-    color: #fff;
-    text-align: center;
-    
-}
-#planning p{
-    margin-top: 1rem;
-    padding-bottom: 1rem;
-}
-#planning{
-    background-color: #fff;
-    margin: 1rem;
-    padding: 1rem;
-}
+    #tourDates h3 {
+        text-align: left;
+        /*font-style: italic;*/
+        color: black;
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+    }
+
+    #tourDates p {
+        /*font-style: italic;*/
+        color: grey;
+        padding-top: 2rem;
+        padding-bottom: 3rem;
+
+    }
+
+    .trois {
+        padding-left: .5rem;
+        padding-right: .5rem;
+        border-radius: 45%;
+        background-color: black;
+        color: #fff;
+        text-align: center;
+        float: right;
+
+
+    }
+
+    .soldOut {
+        margin-left: .5rem;
+        padding-right: .5rem;
+        background-color: red;
+        color: #fff;
+        text-align: center;
+        font-size: 1.5rem;
+
+
+    }
+
+    #planning p {
+        margin-top: .5rem;
+        padding-bottom: .5rem;
+    }
+
+    #planning {
+        background-color: white;
+        margin: .8rem;
+
+    }
+
+    #tourPhoto {
+        background-color: black;
+        padding-bottom: 1rem;
+
+    }
+
+    #tourPhoto p {
+        margin-top: -2rem;
+        margin-bottom: -2rem;
+        margin-left: 0rem;
+        margin-right: 0rem;
+
+    }
+
+    #tourPhoto h3 {
+        margin: 0rem;
+
+
+    }
+
+    #tourPhoto button {
+        text-align: center;
+        /*font-size: large;*/
+        margin-left: 0rem;
+        margin-right: 1rem;
+        background-color: #000;
+        color: #fff;
+        border: none;
+        padding: 1rem;
+
+    }
+
+    button {
+        margin-left: 0rem;
+        padding-left: 1rem;
+    }
+
+    .date {
+        color: grey;
+        margin: 0;
+        padding: 0rem;
+    }
+
+    .date p {}
+
+    .card {
+        background-color: white;
+        margin: 1rem 1rem 1rem 1rem;
+    }
+
+    .card img {
+        width: 100%;
+        
+    }
+    .innerCard{
+        padding: .5rem;
+    }
+
+    /*section contact*/
+
+    #contact {
+        background-color: white;
+        text-align: center;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+
+    }
+
+    .fan {
+        padding-bottom: 3rem;
+    }
+
+    #contact p {
+        padding-top: 0rem;
+        padding-bottom: 0rem;
+        font-style: italic;
+        color: grey;
+
+    }
+    #contact img{
+        
+        flex-direction: center;
+        width: 100%;
+    }
+
+    .coordonnées {
+        text-align: left;
+        color: #000;
+        
+    }
+
+    .coordonnées p {
+        padding-top: 2rem;
+    }
+    .formContact button{
+        text-align: right;
+    }
+    .formContact input{
+        display: flex;
+        flex-direction: row;
+    }
+
+    /*section FOOTER*/
+    footer p {
+        font-size: 1rem;
+        text-align: center;
+        color: grey;
+
+
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 3rem;
+
+    }
+
+    #icon {
+        font-size: 1rem;
+        color: grey;
+
+    }
+
+    @media screen and (min-width:576px) {
+
+        header nav a,
+        header form {
+            display: flex;
+        }
+
+        ul {
+            display: flex;
+        }
+
+        #burger {
+            display: none;
+
+        }
+
+        header input {
+            background-color: #000;
+            border: none;
+            padding: .3rem;
+
+        }
+
+        header button {
+            background-color: #000;
+            color: #fff;
+            border: none;
+        }
+
+        #slider {
+            height: 70vh;
+        }
+
+        #slider p {
+            display: block;
+        }
+
+        #slider p:first-child {
+            font-size: 1.2rem;
+            padding: .7rem;
+
+        }
+
+        #slider p:last-child {
+            font-size: .8rem;
+            padding-top: .5rem;
+            padding-bottom: 3rem;
+            font-weight: 600;
+        }
+
+    }
